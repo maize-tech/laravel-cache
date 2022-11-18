@@ -47,7 +47,7 @@
         }
     },
     "scripts": {
-        "format": "vendor/bin/php-cs-fixer fix --config=.php_cs.dist.php --allow-risky=yes",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
         "analyse": "APP_KEY='base64:WZWVY1aeHd5rooWQi7hyrXaizzW8VaEwqR3rFlfWfRs=' vendor/bin/phpstan analyse",
         "test": "vendor/bin/pest",
         "test-coverage": "XDEBUG_MODE=coverage vendor/bin/pest --coverage"
